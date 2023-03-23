@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(temp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.temp_cal{
+    padding: 0 60px 0;
+    width: 490px;
+    background-color: lightgrey;
+    margin:auto;
+   
+    max-height: 350px;
+
+      
+}
+
+.title{
+    background-color:  #c05436;
+    margin: 0 -60px;
+    padding-top: 10px; 
+    padding-bottom: 2px;
+}
+ h1{
+text-align: center;
+color: white;
+letter-spacing: 1px;
+font-family: sans-serif;
+}
+
+.temp_input .cal_value{
+   
+    margin: 30px  ;
+    margin-bottom: 100px;
+    position: relative;
+    right: 30px;
+    padding: 10px;   
+}
+.cal_value input{
+    padding: 5px;
+    margin: 0 120px;
+    position: relative;
+    bottom: 23px;   
+}
+  .cal_input {
+ 
+  
+    width:50%;
+    float: left;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+    font-size: 18px;
+ }
+
+select{
+    width: 80%;
+    padding: 2px; 
+}
+
+.cal_input select{
+    margin: 0 50px;
+    position: relative;
+    bottom: 20px;
+ }
+ .cal_output select{
+    margin: 0 34px;
+    position: relative;
+    bottom: 20px;
+   
+    
+
+ }
+ .cal_output{
+
+    width: 50%;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    font-size: 18px; 
+ }
+
+#convert{
+    width: 180px;
+    position: relative;
+    bottom: 50px;
+    right: 205px;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #c05436;
+    box-shadow: 0 0 10px grey;
+}
+#convert:hover, #convert:focus , #convert:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#clear{
+    width: 180px;
+    position: relative;
+    bottom: 88.8px;
+    right: -20px;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #c05436;
+    box-shadow: 0 0 10px grey;
+}
+
+#clear:hover, #clear:focus , #clear:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.result{
+   
+    position:relative;
+    bottom: 80px;
+    right: 22px;
+}
+.result input{
+ position: relative;
+ width: 350px;
+ bottom: 10px;
+ padding: 10px;
+right: -62px;   
+}
+.result label{
+   position: relative;
+   right: 185px;
+   font-size: 18px;
+   bottom: -20px;
+}
